@@ -8,7 +8,15 @@
     "dompurify": "2.4.4",
     "merge": "1.2.0",
     "minimist": "1.2.5",
-    "lodash": "4.17.15",
-    "vue": "2.6.14"
+    "lodash": "npm:@neverendingsupport/lodash@4.17.23-lodash-4.17.25",
+    "vue": "npm:@neverendingsupport/vue@2.6.14-vue-2.6.20-rc.3"
+  },
+  "overrides": {
+    "lodash@>=4.17.0 <=4.17.23": {
+      ".": "npm:@neverendingsupport/lodash@4.17.23-lodash-4.17.25"
+    },
+    "vue@>=2.6.0 <=2.6.14": {
+      ".": "npm:@neverendingsupport/vue@2.6.14-vue-2.6.20-rc.3"
+    }
   }
 }
